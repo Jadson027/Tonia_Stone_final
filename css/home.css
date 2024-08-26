@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+ --background: #ffff
+ --background-segundary: #008F5A
+
+}
+
+body {
+    height: 100dvh;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+
+    color: #fff;
+    background-color: var(--background);
+}
+
+.container {
+    height: 330px;
+
+    border-radius: 0 0 0 60px;
+    background-color: #008F5A;
+}
+
+.container header {
+    width: 90%;
+    
+    padding: 20px 0;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container header img {
+    cursor: pointer;
+}
+
+.info {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info p+p {
+    margin: 5px 0 17px 0;
+}
+
+.container-balance {
+    width: 90%;
+    margin: 0 auto;
+
+    padding-top: 24px;
+
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+
+.container-balance img{
+    cursor: pointer;
+}
+
+.balance .text-balance {
+    width: 100%;
+    height: 10px;
+    margin-left: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+
+.barra {
+    width: 6px;
+    height: 30px;
+    border-radius: 3px;
+    background: #98E9AB;
+}
+
+.text-balance {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container-balance hr {
+    border: 2px solid white;
+}
+
+.info-balance {
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 19px 0 13px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.text-movimentacoes {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+
+    padding: 10px 0;
+    display: flex;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+.secoes {
+    width: 90%;
+    margin: 12px auto 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.secoes section {
+    width: 62px;
+    height: 62px;
+
+    border-radius: 21px;
+    padding-top: 5px;
+    font-size: 10px;
+    background-color: #F1F2F4;
+    color: #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+
+    cursor: pointer;
+}
+
+.entrada-saida {
+    width: 90%;
+    margin: 0 auto;
+
+    padding: 7px 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+    border-radius: 5px;
+    color: #000;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.entrada-saida section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.entrada-saida section p {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+#saldo-entradas {
+    color: #62F986;
+}
+
+#saldo-saidas {
+    color: #EF8080;
+} 
+
+/* POP-UP PAGE */
+
+.pop-up-pages {
+    width: 263px;
+    height: 64px;
+
+    font-size: 8px;
+
+    border-radius: 12px;
+    background: #008F5A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display:  flex;
+    justify-content: space-around;
+}
+
+.pop-up-pages section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pop-up-pages section img {
+    width: 36px;
+    height: 36px;
+    padding: 5px 5px 6px 5px;
+    cursor: pointer;
+}
+
+.pop-up-pages .focus {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    background: rgba(98, 249, 134, 0.92);
+}
+
+.container-pop-up-pages {
+    display: flex;
+    justify-content: center;
+
+    position: absolute; 
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.pop-up-assistente {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #5AF082;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+}
+
+.pop-up-assistente img {
+    width: 43px;
+    height: 44px;
+}
+
+.pop-up-assistente p{
+    font-family: "Nunito Sans";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pop-up-assistente {
+    position: absolute;
+    right: 10px;
+    bottom: 70px;
+}
